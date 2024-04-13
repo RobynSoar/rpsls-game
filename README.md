@@ -57,6 +57,21 @@
 
 ### Technologies Used
 
+- HTML
+    - The main structure of the Website was developed using HTMl as the main language.
+
+- CSS
+    - The Website was styled using custom CSS in an external file.
+
+- JavaScript
+    - 
+
+- GitHub
+    - 
+
+- Git
+    - 
+
 [Return to Table of Contents](#table-of-contents)
 
 ## Testing
