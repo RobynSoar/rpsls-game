@@ -71,6 +71,15 @@
 
 ### Validator Testing
 
+- HTML
+    - [W3C Validator](https://validator.w3.org/)
+
+- CSS
+    - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+
+- JavaScript
+    - [JSHint Analysis Tool](https://jshint.com/)
+
 ### Unfixed Bugs
 
 [Return to Table of Contents](#table-of-contents)
