@@ -16,6 +16,42 @@
 </head>
 
 <body>
+    <h1 class="heading">Rock, Paper, Scissors, Lizard, Spock</h1>
+    <div class="rpsls-game-area">
+        <!-- Button choices for Rock, paper, scissors, lizard, spock -->
+        <div class="choices-area">
+            <button class="rock" aria-labelledby="rock">
+                <i class="fa-regular fa-hand-back-fist"></i>
+            </button>
+            <button class="paper" aria-labelledby="paper">
+                <i class="fa-regular fa-hand"></i>
+            </button>
+            <button class="scissors" aria-labelledby="scissors">
+                <i class="fa-regular fa-hand-scissors"></i>
+            </button>
+            <button class="lizard" aria-labelledby="lizard">
+                <i class="fa-regular fa-hand-lizard"></i>
+            </button>
+            <button class="spock" aria-labelledby="spock">
+                <i class="fa-regular fa-hand-spock"></i>
+            </button>
+        </div>
+        <!-- Game choices and game round result -->
+        <div id="game-area">
+            <div id="round-result"></div>
+            <div id="players-choice"></div>
+            <div id="computers-choice"></div>
+        </div>
+        <!-- Scoreboard and game info -->
+        <div id="score-area">
+            <div id="game-round"></div>
+            <div id="scoreboard">
+                <p id="scores">Player's Score: <span id="player-score">0</span> </p>
+                <p id="scores">Computer's Score: <span id="computer-score">0</span> </p>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/7b5cea863c.js" crossorigin="anonymous"></script>
