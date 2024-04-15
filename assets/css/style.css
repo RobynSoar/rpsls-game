@@ -9,3 +9,14 @@
 }
 
 /* General styles */
+header {
+    background: orange;
+}
+
+main {
+    background: lightblue;
+}
+
+footer {
+    background: pink;
+}
