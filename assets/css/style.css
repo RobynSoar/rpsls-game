@@ -1,5 +1,5 @@
 /* Google Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Ubuntu+Condensed&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Ubuntu+Condensed&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -9,6 +9,14 @@
 }
 
 /* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #252525;
+}
+
 header {
     background: orange;
 }
