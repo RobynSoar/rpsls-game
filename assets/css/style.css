@@ -86,6 +86,14 @@ header {
     width: 80%;
     text-align: center;
     line-height: 30px;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+/* Add animation - (Walkthrough code) */
+@keyframes animatetop {
+    from {top: -300px; opacity: 0;}
+    to {top: 0; opacity: 1)}
 }
 
 /* Modal (close button) - (Walkthrough code) */
