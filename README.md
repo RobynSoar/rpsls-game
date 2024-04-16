@@ -153,6 +153,9 @@ The project will now of been cloned on your local machine for use.
 
 ### Walkthrough Code
 
+- [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp)
+    - RPSLS's 'rules' modal was created with the walkthrough from this website.
+
 ### Used Code
 
 ### Media

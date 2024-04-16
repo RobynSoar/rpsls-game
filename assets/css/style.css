@@ -50,7 +50,7 @@ header {
     box-shadow: none;
 }
 
-/* Modal (background) */
+/* Modal (background) - (Walkthrough code)*/
 .modal {
     display: none;
     position: fixed;
@@ -63,7 +63,7 @@ header {
     background-color: rgba(0, 0, 0, .4);
 }
 
-/* Modal (content box) */
+/* Modal (content box) - (Walkthrough code) */
 .modal-content {
     background-color: #FFC857;
     margin: 15% auto;
@@ -75,7 +75,7 @@ header {
     line-height: 30px;
 }
 
-/* Modal (close button) */
+/* Modal (close button) - (Walkthrough code) */
 .close {
     color: #252525;
     float: right;
