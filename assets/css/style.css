@@ -25,16 +25,19 @@ h1, h2, h3 {
     text-align: center;
 }
 
+/* Header */
 header {
     background: orange;
 }
 
+/* Main Content */
 main {
     background: lightblue;
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
 }
 
+/* Footer */
 footer {
     background: pink;
     padding-top: 10px;
