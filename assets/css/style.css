@@ -119,6 +119,40 @@ main {
     flex: 1 0 auto;
 }
 
+#scoreboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#player-label, #comp-label {
+    padding: 5px 10px;
+    background-color: #69A197;
+    border-radius: 5px;
+    width: 75px;
+    height: fit-content;
+    font-size: larger;
+    text-align: center;
+}
+
+#player-label {
+    order: 0;
+}
+
+#comp-label {
+    order: 2;
+}
+
+#scores {
+    order: 1;
+    padding: 20px;
+    margin: 5px 10px;
+    border: 1px solid #69A197;
+    background-color: transparent;
+    font-size: xx-large;
+}
+
 .choices-area {
     display: flex;
     flex-wrap: wrap;
