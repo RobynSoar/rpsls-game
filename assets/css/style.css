@@ -30,6 +30,42 @@ header {
     background: orange;
 }
 
+/* Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #db3a34;
+}
+
+/* Modal (content box) */
+.modal-content {
+    background-color: #db3a34;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #db3a34;
+    width: 80%;
+}
+
+/* Modal (close button) */
+.close {
+    color: #d1e5eb;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #252525;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* Main Content */
 main {
     background: lightblue;
