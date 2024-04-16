@@ -39,16 +39,20 @@ header {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #db3a34;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .4);
 }
 
 /* Modal (content box) */
 .modal-content {
-    background-color: #db3a34;
+    background-color: #FFC857;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #db3a34;
+    border: 1px solid #252525;
+    border-radius: 5%;
     width: 80%;
+    text-align: center;
+    line-height: 30px;
 }
 
 /* Modal (close button) */
