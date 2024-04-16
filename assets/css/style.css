@@ -63,11 +63,24 @@ header {
     background-color: rgba(0, 0, 0, .4);
 }
 
+/* Modal Header - (Walkthrough code) */
+.modal-header {
+    padding: 7px 16px;
+    background-color:#FFC857;
+}
+
+/* Modal Body - (Walkthrough code) */
+.modal-body {
+    padding: 15px 15px;
+    background-color: rgba(250, 250, 250, 0.8);
+    border-radius: 5px;
+}
+
 /* Modal (content box) - (Walkthrough code) */
 .modal-content {
     background-color: #FFC857;
     margin: 15% auto;
-    padding: 20px;
+    padding: 0 20px 20px;
     border: 1px solid #252525;
     border-radius: 25px;
     width: 80%;
