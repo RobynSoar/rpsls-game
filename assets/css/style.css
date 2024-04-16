@@ -27,9 +27,10 @@ h1, h2, h3 {
 
 /* Header */
 header {
-    background: orange;
+    background: #F2EDEF;
     display: flex;
     flex-direction: column;
+    padding-bottom: 10px;
 }
 
 /* Modal button */
@@ -113,14 +114,14 @@ header {
 
 /* Main Content */
 main {
-    background: lightblue;
+    background: #F2EDEF;
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-    background: pink;
+    background: #F2EDEF;
     padding-top: 10px;
 }
 
