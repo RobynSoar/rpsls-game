@@ -28,6 +28,21 @@ h1, h2, h3 {
 /* Header */
 header {
     background: orange;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Modal button */
+#myBtn {
+    padding: 5px 10px;
+    background-color: #DB3A34;
+    border: 1px solid #DB3A34;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .4);
+    width: 75px;
+    margin: auto;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 /* Modal (background) */
