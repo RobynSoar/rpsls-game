@@ -45,6 +45,11 @@ header {
     text-transform: uppercase;
 }
 
+#myBtn:hover {
+    background-color: rgba(219, 58, 52, .8);
+    box-shadow: none;
+}
+
 /* Modal (background) */
 .modal {
     display: none;
