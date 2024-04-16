@@ -94,7 +94,7 @@ header {
 /* Add animation - (Walkthrough code) */
 @keyframes animatetop {
     from {top: -300px; opacity: 0;}
-    to {top: 0; opacity: 1)}
+    to {top: 0; opacity: 1}
 }
 
 /* Modal (close button) - (Walkthrough code) */
