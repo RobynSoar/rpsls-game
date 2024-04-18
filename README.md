@@ -70,10 +70,28 @@ This Website allows users to play against the computer, with scores taken to doc
     - 
 
 - GitHub
-    - 
+    - Source code is hosted on GitHub and deployed using Git Pages.
 
 - Git
-    - 
+    - Used for development of the Website as well as commit and pushing code throughout.
+
+- [Favicon.io](https://favicon.io/favicon-converter/)
+    - Favicon files were created with this favicon converter.
+
+- [TinyPNG](https://tinypng.com/)
+    - Used TinyPNG to compress image assets to aid in the website running quicker.
+
+- [Pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp)
+    - Used Pixelied to convert file types of image assets from jpg/png to webp to aid in the website running quicker.
+
+- [Google Fonts](https://fonts.google.com/)
+    - Used to import fonts used throughout the Website.
+
+- [Coolors](https://coolors.co/)
+    - Colour palette swatches.
+
+- [Online PNG Tools](https://onlinepngtools.com/change-png-color)
+    - Used to change the colours of the icons to match the site's colour palette.
 
 [Return to Table of Contents](#table-of-contents)
 
@@ -159,6 +177,12 @@ The project will now of been cloned on your local machine for use.
 ### Used Code
 
 ### Media
+
+- [Free ICONS Library](https://icon-library.com/)
+    - Icons for the RPSLS game choices were found via this site.
+
+- [Icons8](https://icons8.com/)
+    - Favicon image.
 
 ### Acknowledgements
 
