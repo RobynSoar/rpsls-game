@@ -44,6 +44,7 @@ header {
     margin: auto;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: "Ubuntu Condensed", sans-serif;
 }
 
 #myBtn:hover {
