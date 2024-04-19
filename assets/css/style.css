@@ -120,6 +120,20 @@ main {
     flex: 1 0 auto;
 }
 
+#result-text {
+    margin: 0 20px;
+    padding: 60px 0;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#hand-choice {
+    margin: 0 20px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #scoreboard {
     display: flex;
     flex-direction: row;
