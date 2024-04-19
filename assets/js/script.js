@@ -20,7 +20,7 @@ window.onclick = function (event) {
     }
 }
 
-// Call elements for hand choices
+// Call variables for hand choices
 let rockButton = document.getElementById("rock");
 let paperButton = document.getElementById("paper");
 let scissorsButton = document.getElementById("scissors");
@@ -38,6 +38,7 @@ scissorsButton.addEventListener("click", () => playRound("scissors"));
 lizardButton.addEventListener("click", () => playRound("lizard"));
 spockButton.addEventListener("click", () => playRound("spock"));
 
+// Call variables for scores
 let playerScore = 0;
 let computerScore = 0;
 const playerScoreDisplay = document.getElementById("player-score");
@@ -72,5 +73,14 @@ function playRound(playerChoice) {
     // Update the player and computer scores
     playerScoreDisplay.textContent = `${playerScore}`;
     computerScoreDisplay.textContent = `${computerScore}`;
-
 }
+
+// Testing function to show hand played by either side
+// function displayChoice() {
+//     let playerChoiceDisplay = document.getElementById("player-choice-text");
+//     let computerChoiceDisplay = display.getElementById("comp-choice-text");
+
+//     if (playerChoice === "rock") {
+//         playerChoiceDisplay.innerText = `${playerChoice}`
+//     }
+// }
