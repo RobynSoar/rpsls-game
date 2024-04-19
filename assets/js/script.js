@@ -44,35 +44,50 @@ let computerScore = 0;
 const playerScoreDisplay = document.getElementById("player-score");
 const computerScoreDisplay = document.getElementById("computer-score");
 
+// Call variables for rounds
+let currentRound = 1;
+const totalRounds = 5;
+const roundDisplay = document.getElementById("game-round")
+
 function playRound(playerChoice) {
-    let choices = ["rock", "paper", "scissors", "lizard", "spock"];
-    let computerChoice = choices[Math.floor(Math.random() * choices.length)];
+    if (currentRound <= totalRounds) {
 
-    // Determine the winner and update the result with the outcome - (Walkthrough code)
-    if (playerChoice === computerChoice) {
-        result.textContent = "It's a draw!";
-    } else if (
-        (playerChoice === "rock" && computerChoice === "scissors") ||
-        (playerChoice === "rock" && computerChoice === "lizard") ||
-        (playerChoice === "paper" && computerChoice === "rock") ||
-        (playerChoice === "paper" && computerChoice === "spock") ||
-        (playerChoice === "scissors" && computerChoice === "paper") ||
-        (playerChoice === "scissors" && computerChoice === "lizard") ||
-        (playerChoice === "lizard" && computerChoice === "paper") ||
-        (playerChoice === "lizard" && computerChoice === "spock") ||
-        (playerChoice === "spock" && computerChoice === "rock") ||
-        (playerChoice === "spock" && computerChoice === "scissors")
-    ) {
-        result.textContent = "You win!";
-        playerScore++; // Increment player's score
-    } else {
-        result.textContent = "Computer wins!";
-        computerScore++; // Increment computer's score
+        roundDisplay.textContent = `Round: ${currentRound} of ${totalRounds}`;
+        currentRound++;
+
+        let choices = ["rock", "paper", "scissors", "lizard", "spock"];
+        let computerChoice = choices[Math.floor(Math.random() * choices.length)];
+
+        // Determine the winner and update the result with the outcome - (Walkthrough code)
+        if (playerChoice === computerChoice) {
+            result.textContent = "It's a draw!";
+        } else if (
+            (playerChoice === "rock" && computerChoice === "scissors") ||
+            (playerChoice === "rock" && computerChoice === "lizard") ||
+            (playerChoice === "paper" && computerChoice === "rock") ||
+            (playerChoice === "paper" && computerChoice === "spock") ||
+            (playerChoice === "scissors" && computerChoice === "paper") ||
+            (playerChoice === "scissors" && computerChoice === "lizard") ||
+            (playerChoice === "lizard" && computerChoice === "paper") ||
+            (playerChoice === "lizard" && computerChoice === "spock") ||
+            (playerChoice === "spock" && computerChoice === "rock") ||
+            (playerChoice === "spock" && computerChoice === "scissors")
+        ) {
+            result.textContent = "You win!";
+            playerScore++; // Increment player's score
+        } else {
+            result.textContent = "Computer wins!";
+            computerScore++; // Increment computer's score
+        }
+
+        // Update the player and computer scores
+        playerScoreDisplay.textContent = `${playerScore}`;
+        computerScoreDisplay.textContent = `${computerScore}`;
     }
+}
 
-    // Update the player and computer scores
-    playerScoreDisplay.textContent = `${playerScore}`;
-    computerScoreDisplay.textContent = `${computerScore}`;
+if (currentRound => totalRounds) {
+    concludeGame(); // Function called when all rounds are complete
 }
 
 // Testing function to show hand played by either side
