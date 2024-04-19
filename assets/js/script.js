@@ -19,3 +19,11 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+// Call elements for hand choices
+let rockButton = document.getElementById("rock");
+let paperButton = document.getElementById("paper");
+let scissorsButton = document.getElementById("scissors");
+let lizardButton = document.getElementById("lizard");
+let spockButton = document.getElementById("spock");
+let result = document.getElementById("round-result");
