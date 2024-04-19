@@ -4,17 +4,17 @@ let btn = document.getElementById("myBtn");
 let span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, opens the modal - (Walkthrough code)
-btn.onclick = function() {
+btn.onclick = function () {
     modal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal - (Walkthrough code)
-span.onclick = function() {
+span.onclick = function () {
     modal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it - (Walkthrough code)
-window.onclick = function(event) {
+window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
@@ -38,6 +38,11 @@ scissorsButton.addEventListener("click", () => playRound("scissors"));
 lizardButton.addEventListener("click", () => playRound("lizard"));
 spockButton.addEventListener("click", () => playRound("spock"));
 
+let playerScore = 0;
+let computerScore = 0;
+const playerScoreDisplay = document.getElementById("player-score");
+const computerScoreDisplay = document.getElementById("computer-score");
+
 function playRound(playerChoice) {
     let choices = ["rock", "paper", "scissors", "lizard", "spock"];
     let computerChoice = choices[Math.floor(Math.random() * choices.length)];
@@ -55,10 +60,17 @@ function playRound(playerChoice) {
         (playerChoice === "lizard" && computerChoice === "paper") ||
         (playerChoice === "lizard" && computerChoice === "spock") ||
         (playerChoice === "spock" && computerChoice === "rock") ||
-        (playerChoice === "spock" && computerChoice === "scissors") 
+        (playerChoice === "spock" && computerChoice === "scissors")
     ) {
         result.textContent = "You win!";
+        playerScore++; // Increment player's score
     } else {
         result.textContent = "Computer wins!";
+        computerScore++; // Increment computer's score
     }
+
+    // Update the player and computer scores
+    playerScoreDisplay.textContent = `${playerScore}`;
+    computerScoreDisplay.textContent = `${computerScore}`;
+
 }
