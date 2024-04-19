@@ -53,7 +53,6 @@ function playRound(playerChoice) {
     if (currentRound <= totalRounds) {
 
         roundDisplay.textContent = `Round: ${currentRound} of ${totalRounds}`;
-        currentRound++;
 
         let choices = ["rock", "paper", "scissors", "lizard", "spock"];
         let computerChoice = choices[Math.floor(Math.random() * choices.length)];
@@ -83,11 +82,26 @@ function playRound(playerChoice) {
         // Update the player and computer scores
         playerScoreDisplay.textContent = `${playerScore}`;
         computerScoreDisplay.textContent = `${computerScore}`;
+
+        currentRound++;
+
+        if (currentRound > totalRounds) {
+        concludeGame(); // Function called when all rounds are complete
+    }
     }
 }
 
-if (currentRound => totalRounds) {
-    concludeGame(); // Function called when all rounds are complete
+function concludeGame() {
+
+    if (currentRound >= totalRounds) {
+        if (playerScore > computerScore) {
+            result.textContent = "You won overall! Well done!";
+        } else if (playerScore < computerScore) {
+            result.textContent = "Oh no! The computer won!";
+        } else {
+            result.textContent = "The game ends in a tie!"
+        }
+    }
 }
 
 // Testing function to show hand played by either side
