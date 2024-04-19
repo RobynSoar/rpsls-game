@@ -154,7 +154,7 @@ main {
     font-size: xx-large;
 }
 
-.choices-area {
+#choices-area {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -164,47 +164,30 @@ main {
 }
 
 /* Hand choice images */
-.rock {
+#choices-area button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    border: none;
+}
+
+#rock {
     background: url(../images/rock-choice.webp) no-repeat center center/cover;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 10px 10px;
-    border: none;
 }
 
-.paper {
+#paper {
     background: url(../images/paper-choice.webp) no-repeat center/cover;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 10px 10px;
-    border: none;
 }
 
-.scissors {
+#scissors {
     background: url(../images/scissors-choice.webp) no-repeat center/cover;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 10px 10px;
-    border: none;
 }
 
-.lizard {
+#lizard {
     background: url(../images/lizard-choice.webp) no-repeat center/cover;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 10px 10px;
-    border: none;
 }
 
-.spock {
+#spock {
     background: url(../images/spock-choice.webp) no-repeat center/cover;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 10px 10px;
-    border: none;
 }
