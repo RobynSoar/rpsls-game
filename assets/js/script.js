@@ -34,31 +34,31 @@ let result = document.getElementById("result-text");
  */
 rockButton.addEventListener("click", () => playRound("rock"));
 paperButton.addEventListener("click", () => playRound("paper"));
-paperButton.addEventListener("click", () => playRound("scissors"));
-scissorsButton.addEventListener("click", () => playRound("lizard"));
+scissorsButton.addEventListener("click", () => playRound("scissors"));
+lizardButton.addEventListener("click", () => playRound("lizard"));
 spockButton.addEventListener("click", () => playRound("spock"));
 
 function playRound(playerChoice) {
-let choices = ["rock", "paper", "scissors", "lizard", "spock"];
-let computerChoice = choices[Math.floor(Math.random() * choices.length)];
-}
+    let choices = ["rock", "paper", "scissors", "lizard", "spock"];
+    let computerChoice = choices[Math.floor(Math.random() * choices.length)];
 
-// Determine the winner and update the result with the outcome - (Walkthrough code)
-if (playerChoice === computerChoice) {
-    result.textContent = "It's a draw!";
-} else if (
-    (playerChoice === "rock" && computerChoice === "scissors") ||
-    (playerChoice === "rock" && computerChoice === "lizard") ||
-    (playerChoice === "paper" && computerChoice === "rock") ||
-    (playerChoice === "paper" && computerChoice === "spock") ||
-    (playerChoice === "scissors" && computerChoice === "paper") ||
-    (playerChoice === "scissors" && computerChoice === "lizard") ||
-    (playerChoice === "lizard" && computerChoice === "paper") ||
-    (playerChoice === "lizard" && computerChoice === "spock") ||
-    (playerChoice === "spock" && computerChoice === "rock") ||
-    (playerChoice === "spock" && computerChoice === "scissors") 
-) {
-    result.textContent = "You win!";
-} else {
-    result.textContent = "Computer wins!";
+    // Determine the winner and update the result with the outcome - (Walkthrough code)
+    if (playerChoice === computerChoice) {
+        result.textContent = "It's a draw!";
+    } else if (
+        (playerChoice === "rock" && computerChoice === "scissors") ||
+        (playerChoice === "rock" && computerChoice === "lizard") ||
+        (playerChoice === "paper" && computerChoice === "rock") ||
+        (playerChoice === "paper" && computerChoice === "spock") ||
+        (playerChoice === "scissors" && computerChoice === "paper") ||
+        (playerChoice === "scissors" && computerChoice === "lizard") ||
+        (playerChoice === "lizard" && computerChoice === "paper") ||
+        (playerChoice === "lizard" && computerChoice === "spock") ||
+        (playerChoice === "spock" && computerChoice === "rock") ||
+        (playerChoice === "spock" && computerChoice === "scissors") 
+    ) {
+        result.textContent = "You win!";
+    } else {
+        result.textContent = "Computer wins!";
+    }
 }

@@ -188,20 +188,25 @@ main {
 
 #rock {
     background: url(../images/rock-choice.webp) no-repeat center center/cover;
+    box-shadow: 0 5px 5px 0 #252525;
 }
 
 #paper {
     background: url(../images/paper-choice.webp) no-repeat center/cover;
+    box-shadow: 0 5px 5px 0 #252525;
 }
 
 #scissors {
     background: url(../images/scissors-choice.webp) no-repeat center/cover;
+    box-shadow: 0 5px 5px 0 #252525;
 }
 
 #lizard {
     background: url(../images/lizard-choice.webp) no-repeat center/cover;
+    box-shadow: 0 5px 5px 0 #252525;
 }
 
 #spock {
     background: url(../images/spock-choice.webp) no-repeat center/cover;
+    box-shadow: 0 5px 5px 0 #252525;
 }
