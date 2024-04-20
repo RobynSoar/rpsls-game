@@ -123,6 +123,7 @@ main {
     flex: 1 0 auto;
 }
 
+/* Game area */
 #result-text {
     margin: 0 20px;
     padding: 60px 0;
@@ -137,6 +138,7 @@ main {
     justify-content: space-evenly;
 }
 
+/* Scoreboard area */
 #game-round {
     display: flex;
     justify-content: center;
