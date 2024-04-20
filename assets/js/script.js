@@ -49,9 +49,16 @@ let currentRound = 1;
 const totalRounds = 5;
 const roundDisplay = document.getElementById("game-round")
 
+/**
+ * Sets rules for the game rounds.
+ * Sets game round's results and displays then to the user.
+ * Updates player and computer scores.
+ * Increments rounds and provides overall winner after all rounds are concluded.
+ */
 function playRound(playerChoice) {
     if (currentRound <= totalRounds) {
 
+        // Provides current round and total rounds to user
         roundDisplay.textContent = `Round: ${currentRound} of ${totalRounds}`;
 
         let choices = ["rock", "paper", "scissors", "lizard", "spock"];
@@ -83,7 +90,7 @@ function playRound(playerChoice) {
         playerScoreDisplay.textContent = `${playerScore}`;
         computerScoreDisplay.textContent = `${computerScore}`;
 
-        currentRound++;
+        currentRound++; // Increments round after each game played
 
         if (currentRound > totalRounds) {
         concludeGame(); // Function called when all rounds are complete
@@ -91,6 +98,10 @@ function playRound(playerChoice) {
     }
 }
 
+/**
+ * Concludes game after all rounds are completed.
+ * Provides overall game outcome feedback to the user.
+ */
 function concludeGame() {
 
     if (currentRound >= totalRounds) {
@@ -104,9 +115,13 @@ function concludeGame() {
     }
 }
 
+// Reset button and event listener
 let resetBtn = document.getElementById("reset-btn");
 resetBtn.addEventListener("click", resetGame);
 
+/**
+ * Resets game to original state allowing user to play again.
+ */
 function resetGame() {
 
     playerScore = 0;
