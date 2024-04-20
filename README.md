@@ -174,6 +174,9 @@ The project will now of been cloned on your local machine for use.
 - [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp)
     - RPSLS's 'rules' modal was created with the walkthrough from this website.
 
+- [Hacker.io](https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript)
+    - Some parts of this walkthrough aided with a push in the right direction with JavaScript for the RPSLS game site.
+
 ### Used Code
 
 ### Media
