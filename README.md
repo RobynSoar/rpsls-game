@@ -169,6 +169,9 @@ The project will now of been cloned on your local machine for use.
         - [Writing a High Quality README! - Blog](https://dev.to/coderarchive/writing-a-high-quality-readme-1k3j)
             - Woohoo Salon's README.md layout and contents was also inspired by this README to confirm I had the correct content for a good quality README.
 
+- [Code Insitute](https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum)
+    - Code Institute's programme helped me throughout the site with how to write sections of basic code.
+
 ### Walkthrough Code
 
 - [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp)
