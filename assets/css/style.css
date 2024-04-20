@@ -39,7 +39,7 @@ header {
     background-color: #DB3A34;
     border: 1px solid #DB3A34;
     border-radius: 5px;
-    box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, .4);
+    box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, .6);
     width: 75px;
     margin: auto;
     font-weight: bold;
@@ -48,8 +48,11 @@ header {
 }
 
 #myBtn:hover {
-    background-color: rgba(219, 58, 52, .8);
     box-shadow: none;
+}
+
+myBtn:active {
+    box-shadow: inset 0 0 3px #252525;
 }
 
 /* Modal (background) - (Walkthrough code)*/
@@ -182,13 +185,22 @@ main {
 
 #reset-btn {
     text-align: center;
+    font-size: larger;
     text-transform: uppercase;
     padding: 5px 10px;
     background-color: #DB3A34;
     border: none;
-    box-shadow: 0px 3px 3px 0 #252525;
+    box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, .6);
     border-radius: 5px;
     font-family: "Ubuntu Condensed", sans-serif;
+}
+
+#reset-btn:hover {
+    box-shadow: none;
+}
+
+#reset-btn:active {
+    box-shadow: inset 0 0 5px #252525;
 }
 
 #choices-area {
@@ -219,25 +231,25 @@ main {
 
 #rock {
     background: url(../images/rock-choice.webp) no-repeat center center/cover;
-    box-shadow: 0 5px 5px 0 #252525;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .6);
 }
 
 #paper {
     background: url(../images/paper-choice.webp) no-repeat center/cover;
-    box-shadow: 0 5px 5px 0 #252525;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .6);
 }
 
 #scissors {
     background: url(../images/scissors-choice.webp) no-repeat center/cover;
-    box-shadow: 0 5px 5px 0 #252525;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .6);
 }
 
 #lizard {
     background: url(../images/lizard-choice.webp) no-repeat center/cover;
-    box-shadow: 0 5px 5px 0 #252525;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .6);
 }
 
 #spock {
     background: url(../images/spock-choice.webp) no-repeat center/cover;
-    box-shadow: 0 5px 5px 0 #252525;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .6);
 }

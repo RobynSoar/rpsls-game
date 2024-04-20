@@ -104,6 +104,20 @@ function concludeGame() {
     }
 }
 
+let resetBtn = document.getElementById("reset-btn");
+resetBtn.addEventListener("click", resetGame);
+
+function resetGame() {
+
+    playerScore = 0;
+    computerScore = 0;
+    currentRound = 1;
+    playerScoreDisplay.innerText = 0;
+    computerScoreDisplay.innerText = 0;
+    roundDisplay.innerText = `Round: 1 of ${totalRounds}`;
+    result.innerText= "Best of 5 - WINS!";
+}
+
 // Testing function to show hand played by either side
 // function displayChoice() {
 //     let playerChoiceDisplay = document.getElementById("player-choice-text");
