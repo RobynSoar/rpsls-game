@@ -39,7 +39,7 @@ header {
     background-color: #DB3A34;
     border: 1px solid #DB3A34;
     border-radius: 5px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, .4);
+    box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, .4);
     width: 75px;
     margin: auto;
     font-weight: bold;
@@ -134,6 +134,11 @@ main {
     justify-content: space-evenly;
 }
 
+#game-round {
+    display: flex;
+    justify-content: center;
+}
+
 #scoreboard {
     display: flex;
     flex-direction: row;
@@ -166,6 +171,24 @@ main {
     border: 1px solid #69A197;
     background-color: transparent;
     font-size: xx-large;
+}
+
+/* Reset Button */
+#reset-game {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+#reset-btn {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    background-color: #DB3A34;
+    border: none;
+    box-shadow: 0px 3px 3px 0 #252525;
+    border-radius: 5px;
+    font-family: "Ubuntu Condensed", sans-serif;
 }
 
 #choices-area {
