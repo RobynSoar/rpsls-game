@@ -64,6 +64,9 @@ function playRound(playerChoice) {
         let choices = ["rock", "paper", "scissors", "lizard", "spock"];
         let computerChoice = choices[Math.floor(Math.random() * choices.length)];
 
+        // Displays Player and Computer chosen hands to the user
+        displayChoice(playerChoice, computerChoice);
+
         // Determine the winner and update the result with the outcome - (Walkthrough code)
         if (playerChoice === computerChoice) {
             result.textContent = "It's a draw!";
@@ -93,8 +96,8 @@ function playRound(playerChoice) {
         currentRound++; // Increments round after each game played
 
         if (currentRound > totalRounds) {
-        concludeGame(); // Function called when all rounds are complete
-    }
+            concludeGame(); // Function called when all rounds are complete
+        }
     }
 }
 
@@ -130,15 +133,19 @@ function resetGame() {
     playerScoreDisplay.innerText = 0;
     computerScoreDisplay.innerText = 0;
     roundDisplay.innerText = `Round: 1 of ${totalRounds}`;
-    result.innerText= "Best of 5 - WINS!";
+    result.innerText = "Best of 5 - WINS!";
 }
 
 // Testing function to show hand played by either side
-// function displayChoice() {
-//     let playerChoiceDisplay = document.getElementById("player-choice-text");
-//     let computerChoiceDisplay = display.getElementById("comp-choice-text");
+function displayChoice(playerChoice, computerChoice) {
+    let playerChoiceDisplay = document.getElementById("player-choice-text");
+    let computerChoiceDisplay = document.getElementById("comp-choice-text");
 
-//     if (playerChoice === "rock") {
-//         playerChoiceDisplay.innerText = `${playerChoice}`
-//     }
-// }
+    if (playerChoice === "rock" || playerChoice === "paper" || playerChoice === "scissors" || playerChoice === "lizard" || playerChoice === "spock") {
+        playerChoiceDisplay.innerText = `${playerChoice}`
+    }
+
+    if (computerChoice === "rock" || computerChoice === "paper" || computerChoice === "scissors" || computerChoice === "lizard" || computerChoice === "spock") {
+        computerChoiceDisplay.innerText = `${computerChoice}`
+    }
+}
