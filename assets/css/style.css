@@ -135,7 +135,17 @@ main {
     margin: 0 20px;
     padding: 15px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+/* Choice display area */
+#versus {
+    padding: 0 10px;
+}
+
+#player-choice, #computers-choice {
+    flex: 1; /*Stops the choice displays from pushing #versus away from the center*/
+    text-align: center;
 }
 
 /* Scoreboard area */
