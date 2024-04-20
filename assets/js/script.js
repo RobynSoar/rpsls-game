@@ -127,6 +127,7 @@ resetBtn.addEventListener("click", resetGame);
  */
 function resetGame() {
 
+    // Resets playRound Function
     playerScore = 0;
     computerScore = 0;
     currentRound = 1;
@@ -134,6 +135,10 @@ function resetGame() {
     computerScoreDisplay.innerText = 0;
     roundDisplay.innerText = `Round: 1 of ${totalRounds}`;
     result.innerText = "Best of 5 - WINS!";
+
+    // Resets displayChoice function
+    document.getElementById("player-choice-text").innerText = "1..2..3... GO!";
+    document.getElementById("comp-choice-text").innerText = "1..2..3... GO!";
 }
 
 /**
