@@ -136,11 +136,14 @@ main {
     padding: 15px 0;
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-size: larger;
 }
 
 /* Choice display area */
 #versus {
     padding: 0 20px;
+    font-size: x-large;
 }
 
 /*
