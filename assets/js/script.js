@@ -136,16 +136,22 @@ function resetGame() {
     result.innerText = "Best of 5 - WINS!";
 }
 
-// Testing function to show hand played by either side
+/**
+ * Displays hand played by either side to the user
+ */
 function displayChoice(playerChoice, computerChoice) {
     let playerChoiceDisplay = document.getElementById("player-choice-text");
     let computerChoiceDisplay = document.getElementById("comp-choice-text");
 
+    // Method to change displayed choice outputs as uppercase
+    let uppercasePlayerChoice = playerChoice.toUpperCase();
+    let uppercaseComputerChoice = computerChoice.toUpperCase();
+
     if (playerChoice === "rock" || playerChoice === "paper" || playerChoice === "scissors" || playerChoice === "lizard" || playerChoice === "spock") {
-        playerChoiceDisplay.innerText = `${playerChoice}`
+        playerChoiceDisplay.innerText = `${uppercasePlayerChoice}`
     }
 
     if (computerChoice === "rock" || computerChoice === "paper" || computerChoice === "scissors" || computerChoice === "lizard" || computerChoice === "spock") {
-        computerChoiceDisplay.innerText = `${computerChoice}`
+        computerChoiceDisplay.innerText = `${uppercaseComputerChoice}`
     }
 }
