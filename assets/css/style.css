@@ -140,12 +140,22 @@ main {
 
 /* Choice display area */
 #versus {
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
-#player-choice, #computers-choice {
-    flex: 1; /*Stops the choice displays from pushing #versus away from the center*/
-    text-align: center;
+/*
+Stops the player and computer choice displays from
+pushing versus div away from the center and keeps
+them close
+*/
+#player-choice {
+    flex: 1;
+    text-align: end;
+}
+
+#computers-choice {
+    flex: 1;
+    text-align: start;
 }
 
 /* Scoreboard area */
