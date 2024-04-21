@@ -199,6 +199,7 @@ them close
     padding: 20px;
     margin: 5px 10px;
     border: 1px solid #69A197;
+    border-radius: 5px;
     background-color: transparent;
     font-size: xx-large;
 }
