@@ -71,7 +71,7 @@ function playRound(playerChoice) {
         // Determine the winner and update the result with the outcome - (Walkthrough code)
         if (playerChoice === computerChoice) {
             result.textContent = "It's a draw!";
-            result.style.borderColor = "#FFC857"
+            result.style.borderColor = "#FFC857";
         } else if (
             (playerChoice === "rock" && computerChoice === "scissors") ||
             (playerChoice === "rock" && computerChoice === "lizard") ||
@@ -85,11 +85,11 @@ function playRound(playerChoice) {
             (playerChoice === "spock" && computerChoice === "scissors")
         ) {
             result.textContent = "You win!";
-            result.style.borderColor = "#69A197"
+            result.style.borderColor = "#69A197";
             playerScore++; // Increment player's score
         } else {
             result.textContent = "Computer wins!";
-            result.style.borderColor = "#DB3A34"
+            result.style.borderColor = "#DB3A34";
             computerScore++; // Increment computer's score
         }
 
@@ -114,10 +114,10 @@ function concludeGame() {
     if (currentRound >= totalRounds) {
         if (playerScore > computerScore) {
             result.textContent = "You won overall! Well done!";
-            result.style.borderColor = "#69A197"
+            result.style.borderColor = "#69A197";
         } else if (playerScore < computerScore) {
             result.textContent = "Oh no! The computer won!";
-            result.style.borderColor = "#DB3A34"
+            result.style.borderColor = "#DB3A34";
         } else {
             result.textContent = "The game ends in a tie!";
             result.style.borderColor = "#FFC857";
@@ -146,6 +146,9 @@ function resetGame() {
     // Resets displayChoice function
     document.getElementById("player-choice-text").innerText = "1..2..3... GO!";
     document.getElementById("comp-choice-text").innerText = "1..2..3... GO!";
+
+    // Resets results display border colour
+    result.style.borderColor = "#252525";
 }
 
 /**
