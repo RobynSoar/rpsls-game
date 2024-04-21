@@ -56,6 +56,16 @@ This Website allows users to play against the computer, with scores taken to doc
 
 ### Colour Palette
 
+The following colour palette was used throughout the Website to provide good contrast between elements and a 'retro' colour scheme to match the time period in which Star Trek (from which "Spock" is a character from) was first released.
+
+- #F2EDEF - Background colour site-wide
+- #FFC857 - Accent colour
+- #DB3A34 - Accent colour
+- #69A197 - Accent colour
+- #252525 - Text colour site-wide
+
+![Colour Palette](documentation/colour-palette.png)
+
 ### Google Fonts
 
 [Google Fonts](https://fonts.google.com/) was used to import fonts for the Website, these include:
