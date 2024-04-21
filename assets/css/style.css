@@ -41,7 +41,7 @@ header {
     border-radius: 5px;
     box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, .6);
     width: 75px;
-    margin: auto;
+    margin: 7px auto 0;
     font-weight: bold;
     text-transform: uppercase;
     font-family: "Ubuntu Condensed", sans-serif;
@@ -126,9 +126,9 @@ main {
 /* Game area */
 #result-text {
     margin: 0 20px;
-    padding: 30px 0;
+    padding: 3px 0;
     text-align: center;
-    font-size: xx-large;
+    font-size: large;
     border: 5px solid #252525;
     border-radius: 5px;
 }
@@ -196,7 +196,7 @@ them close
 
 #scores {
     order: 1;
-    padding: 20px;
+    padding: 10px;
     margin: 5px 10px;
     border: 1px solid #69A197;
     border-radius: 5px;
@@ -235,17 +235,17 @@ them close
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 20px 10px;
+    padding: 0px 5px;
     width: 100%;
     height: auto;
 }
 
 /* Hand choice images */
 #choices-area button {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    margin: 10px 10px;
+    margin: 5px 5px;
     border: none;
 }
 
@@ -280,4 +280,12 @@ them close
 #spock {
     background: url(../images/spock-choice.webp) no-repeat center/cover;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .6);
+}
+
+@media screen and (max-height: 667px) {
+    
+    .heading {
+        display: none;
+    }
+
 }
