@@ -58,6 +58,11 @@ This Website allows users to play against the computer, with scores taken to doc
 
 ### Google Fonts
 
+[Google Fonts](https://fonts.google.com/) was used to import fonts for the Website, these include:
+
+- "Teko", sans-serif: Used for the Website logo and 'Rules' modal
+- "Ubuntu Condensed", sans-serif: Used for all other text content site wide
+
 ### Technologies Used
 
 - HTML
