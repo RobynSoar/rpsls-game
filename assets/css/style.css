@@ -282,10 +282,34 @@ them close
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .6);
 }
 
+/* Media query - Max-height: 667px - Makes heading disappear on smaller 
+screens to allow the game page to appear fully on the screen */
 @media screen and (max-height: 667px) {
-    
+
     .heading {
         display: none;
+    }
+}
+
+/* Media query - Medium sized Mobile phones and up (Width: 374px Height: 666px */
+@media screen and (min-width: 374px) and (min-height: 666px) {
+
+    #result-text {
+        padding: 30px;
+        font-size: xx-large;
+    }
+
+    #scores {
+        padding: 20px;
+    }
+
+    #choices-area {
+        padding: 20px 5px;
+    }
+
+    #choices-area button {
+        width: 100px;
+        height: 100px;
     }
 
 }
