@@ -294,9 +294,17 @@ screens to allow the game page to appear fully on the screen */
 /* Media query - Medium sized Mobile phones and up (Width: 374px Height: 666px */
 @media screen and (min-width: 374px) and (min-height: 666px) {
 
+    #myBtn {
+        margin: 12px auto 6px;
+    }
+
     #result-text {
         padding: 30px;
         font-size: x-large;
+    }
+
+    #hand-choice {
+        padding: 25px 0;
     }
 
     #scores {
