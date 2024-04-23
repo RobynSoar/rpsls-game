@@ -6,19 +6,19 @@ let span = document.getElementsByClassName("close")[0];
 // When the user clicks on the button, opens the modal - (Walkthrough code)
 btn.onclick = function () {
     modal.style.display = "block";
-}
+};
 
 // When the user clicks on <span> (x), close the modal - (Walkthrough code)
 span.onclick = function () {
     modal.style.display = "none";
-}
+};
 
 // When the user clicks anywhere outside of the modal, close it - (Walkthrough code)
 window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
-}
+};
 
 // Call variables for hand choices
 let rockButton = document.getElementById("rock");
@@ -47,7 +47,7 @@ const computerScoreDisplay = document.getElementById("computer-score");
 // Call variables for rounds
 let currentRound = 1;
 const totalRounds = 5;
-const roundDisplay = document.getElementById("game-round")
+const roundDisplay = document.getElementById("game-round");
 
 /**
  * Sets rules for the game rounds.
@@ -163,10 +163,10 @@ function displayChoice(playerChoice, computerChoice) {
     let uppercaseComputerChoice = computerChoice.toUpperCase();
 
     if (playerChoice === "rock" || playerChoice === "paper" || playerChoice === "scissors" || playerChoice === "lizard" || playerChoice === "spock") {
-        playerChoiceDisplay.innerText = `${uppercasePlayerChoice}`
+        playerChoiceDisplay.innerText = `${uppercasePlayerChoice}`;
     }
 
     if (computerChoice === "rock" || computerChoice === "paper" || computerChoice === "scissors" || computerChoice === "lizard" || computerChoice === "spock") {
-        computerChoiceDisplay.innerText = `${uppercaseComputerChoice}`
+        computerChoiceDisplay.innerText = `${uppercaseComputerChoice}`;
     }
 }
