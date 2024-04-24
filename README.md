@@ -197,6 +197,9 @@ The project will now of been cloned on your local machine for use.
 
 ### Used Code
 
+- [Woohoo Salon - 404 Error Page](https://github.com/RobynSoar/woohoo-salon)
+    - RPSLS 404 error page was made with code from my Woohoo Salon website, altered to suit the style of RPSLS game website.
+
 ### Media
 
 - [Free ICONS Library](https://icon-library.com/)
