@@ -335,7 +335,7 @@ screens to allow the game page to appear fully on the screen */
 }
 
 /* Media query - Medium sized Mobile phones and up (Width: 374px Height: 666px */
-@media screen and (min-width: 374px) and (min-height: 666px) {
+@media screen and (min-width: 375px) {
 
     #myBtn {
         margin: 12px auto 6px;
@@ -359,8 +359,8 @@ screens to allow the game page to appear fully on the screen */
     }
 
     #choices-area button {
-        width: 100px;
-        height: 100px;
+        width: 110px;
+        height: 110px;
     }
 
 }
