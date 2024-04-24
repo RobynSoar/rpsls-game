@@ -282,6 +282,35 @@ them close
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .6);
 }
 
+/* 404 Page */
+#wrap>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 60px 0;
+    padding: 20px 10px;
+    background-color: #69A197;
+    border-radius: 5px;
+}
+
+#contents p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.back-home-button {
+    background-color: #FFC857;
+    color: #252525;
+    font-size: 110%;
+    font-weight: bold;
+    padding: 5px 20px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .6);
+    border: none;
+    border-radius: 5px;
+}
+
 /* Media query - Max-height: 667px - Makes heading disappear on smaller 
 screens to allow the game page to appear fully on the screen */
 @media screen and (max-height: 667px) {
