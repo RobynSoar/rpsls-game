@@ -288,20 +288,22 @@ them close
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-size: large;
     text-align: center;
-    margin: 60px 0;
+    margin: 60px 15px;
     padding: 20px 10px;
-    background-color: #69A197;
     border-radius: 5px;
+    border: 5px solid #DB3A34;
 }
 
 #contents p {
     text-align: center;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 .back-home-button {
-    background-color: #FFC857;
+    background-color: #69A197;
+    font-family: "Ubuntu Condensed", sans-serif;
     color: #252525;
     font-size: 110%;
     font-weight: bold;
@@ -309,6 +311,18 @@ them close
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .6);
     border: none;
     border-radius: 5px;
+}
+
+.back-home-button:hover {
+    box-shadow: none;
+}
+
+.back-home-button:active {
+    box-shadow: inset 0 0 10px #252525;
+}
+
+a {
+    color: #252525;
 }
 
 /* Media query - Max-height: 667px - Makes heading disappear on smaller 
