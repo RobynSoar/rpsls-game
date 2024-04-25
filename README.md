@@ -300,18 +300,36 @@ Testing was focused to ensure the following criteria were met:
 
 ### Lighthouse Testing
 
+__Landing Page__
+
+- Desktop
+
+![Lighthouse - Landing Page Desktop](documentation/testing/lighthouse-landing-page-desktop.png)
+
+- Mobile
+
+![Lighthouse - Landing Page Mobile](documentation/testing/lighthouse-landing-page-mobile.png)
+
 ### Functional Testing
 
 ### Validator Testing
 
 - HTML
-    - [W3C Validator](https://validator.w3.org/)
+    - No errors were returned when checking all HTML pages through the [W3C Validator](https://validator.w3.org/)
+
+Landing Page
+
+![HTML Validator - Landing Page](documentation/testing/w3c-html-validator-pass.png)
 
 - CSS
-    - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+    - No errors were returned when checking CSS through the [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+
+![CSS Validator](documentation/testing/w3c-css-validator-pass.png)
 
 - JavaScript
-    - [JSHint Analysis Tool](https://jshint.com/)
+    - No warnings were returned when checking JavaSCript through the [JSHint Analysis Tool](https://jshint.com/)
+
+![JavaScript Analysis Tool](documentation/testing/jshint-validator-pass.png)
 
 ### Unfixed Bugs
 
