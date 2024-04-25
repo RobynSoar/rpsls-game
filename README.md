@@ -258,7 +258,45 @@ Colour contrast for the Website was checked with [WebAIM Contrast Checker](https
 
 ### Responsiveness
 
+ All pages were tested to ensure responsiveness on screen sizes from 320 (width) on Chrome DevTools.
+
+ Steps to test:
+
+1. Open Chrome and navigate to [RPSLS Game](https://robynsoar.github.io/rpsls-game/)
+2. Open the Chrome DevTools (right click on webpage and click 'inspect')
+3. Set to 'responsive' and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or warped. No horizontal scroll is present. No elements overlap.
+
+Actual:
+
+Website behaved as expected.
+
+Website was also opened on the following devices and no responsive issues were seen:
+
+- Samsung S22 Ultra
+- Apple Ipad Pro
+- Apple iPhone 12
+- Google Pixel 7
+- Samsung ZFold 5
+
 ### Accessibility
+
+Throughout the developement of the site and for final testing of the deployed Website [Wave Accessibility tool](https://wave.webaim.org/) was used to test for any accessbility aid.
+
+Testing was focused to ensure the following criteria were met:
+
+- Colour contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines.
+- Heading levels are not missed or skipped to ensure importance of content is relayed correctly to the end user.
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions.
+- All non textual content has alt text, labels or titles so they can be read out to screen readers.
+- HTML page lang attribute has been set.
+- Aria properties have been implemented correctly.
+- WCAG 2.1 Coding best practices have been followed.
+- Manual tests performed to ensure the website was accessible via keyboard, no issues were found.
 
 ### Lighthouse Testing
 
