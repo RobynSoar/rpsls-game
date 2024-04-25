@@ -122,6 +122,14 @@ One option after a hand has been chosen by the user and computer
 
 ![Hand choice feature](documentation/features/hand-choice-buttons.png)
 
+### 404 Error Page
+- A 404 Error page has been included incase there are any issues with bugs or typos within the URL, causing the Website to not work as intended.
+    - This page has minimal detail that carries over the style of the Website to indicate to the user that they haven't left the site.
+    - A whimsical message can be seen by the user which could be appreciated by all users, especially by those that are fans of "Star Trek" of which the hand gesture "Spock" refers to a character from.
+    - A clear 'Warp me back to Homepage' button will navigate users to the landing page, giving them an easy way to get back onto the site and increasing the chances of the user staying on the site despite the error.
+
+![404 page feature](documentation/features/404-page.png)
+
 ### Existing Features
 
 ### Features Left to Implement
