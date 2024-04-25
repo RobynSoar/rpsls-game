@@ -153,6 +153,16 @@ One option after a hand has been chosen by the user and computer
 
 ### Wireframes
 
+__Landing Page__
+
+- Desktop
+
+![Landing page wireframe - desktop](documentation/wireframes/rpsls-desktop-wireframe.png)
+
+- Mobile
+
+![Landing page wireframe - mobile](documentation/wireframes/rpsls-mobile-wireframe.png)
+
 ### Colour Palette
 
 The following colour palette was used throughout the Website to provide good contrast between elements and a 'retro' colour scheme to match the time period in which Star Trek (from which "Spock" is a character from) was first released.
