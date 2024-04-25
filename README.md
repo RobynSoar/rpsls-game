@@ -106,6 +106,14 @@ One option after a hand has been chosen by the user and computer
 
 ![Preview choice display feature](documentation/features/choice-display-text-preview.png)
 
+- Scoreboard and reset button
+    - Displays the current round of the game out of the total of 5 rounds playable within a game. This updates and informs the user how many more rounds are left before the overall winner is announced.
+    - To the left and right of the scoreboard show the labels for which side the points are displayed for each competitor (player and computer).
+    - The scoreboard points display updates after each round and increments each time the player (user) or computer wins.
+    - Below is the reset button, this can be clicked at any point during a game or after the game has concluded to reset the whole game back to the start. This resets all displayed messages, results and points.
+
+![Scoreboard and reset button feature](documentation/features/scoreboard-and-reset.png)
+
 ### Existing Features
 
 ### Features Left to Implement
