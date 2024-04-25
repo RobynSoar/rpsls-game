@@ -40,7 +40,21 @@ This Website allows users to play against the computer, with scores taken to doc
 
 ## Features
 
+The Website is made up of 2 pages, the landing page where the game is established, and a 404 error page incase of a broken link, of which will not be seen by the user unless an error occurs.
+
 ### Site Wide
+
+- Logo
+    - Clear and concise name that informs the user of what game is displayed on the Website.
+    - Logo heading is hidden on smaller phone screens to allow the full game-area to be seen without the need to scroll.
+
+![Logo feature](documentation/features/logo-heading.png)
+
+- Favicon
+    -- The site wite favicon show a hand gesture, this ties in with the hand gestures used within the game.
+    - This provides an image in the tabs header to allow the user to easily identify the Website if they have multiple websites open at once.
+
+![Favicon feature](documentation/features/favicon-title-tab.png)
 
 ### Landing Page
 
