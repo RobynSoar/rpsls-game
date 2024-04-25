@@ -2,11 +2,15 @@
 (by Robyn Soar)
 
 RPSLS (Rock, Paper, Scissors, Lizard, Spock) is a Website aimed at ages 4+, which contains a simple game of Rock, Paper, Scissors, Lizard, Spock. Made by Sam Kass & Karen Bryla, it is a game of chance which expanded on the traditional game of Rock, Paper, Scissors.
-This Website allows users to play against the computer, with scores taken to document the winner of 3 games out of 5.
+This Website allows users to play against the computer, with scores taken to document the win, lose of draw out of 5 rounds.
 
 ## Key Project Goals
 
 ## Target Audience
+
+- The primary target audience for the Website is 4+ years old, aimed at fans of the original game known by "Rock Paper Scissors" or the adapted game played on this site, "Rock Paper Scissors Lizard Spock", and futhermore, fans of the shows "The Big Bang Theory" where this game was mentioned and "Star Trek" of which the character "Spock" belongs to.
+
+![AmIResponsive - RPSLS](documentation/am-i-responsive-rpsls.png)
 
 ## Table of Contents
 
