@@ -289,7 +289,7 @@ Throughout the developement of the site and for final testing of the deployed We
 
 Testing was focused to ensure the following criteria were met:
 
-- Colour contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines.
+- Colour contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html).
 - Heading levels are not missed or skipped to ensure importance of content is relayed correctly to the end user.
 - All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions.
 - All non textual content has alt text, labels or titles so they can be read out to screen readers.
