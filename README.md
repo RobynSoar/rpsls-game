@@ -312,6 +312,155 @@ __Landing Page__
 
 ### Functional Testing
 
+__Navigational Links__
+
+- 404 Error Page
+    - Testing was performed to ensure the navigation link on the 404 page navigated back to the landing page as per design.
+
+Expected:
+
+Navigation link back to RPSLS game's landing page (index.html).
+
+Actual:
+
+Website behaved as expected.
+
+__Rules Modal Button__
+
+Testing was performed on the Rules modal button to ensure that it had it's box-shadow removed when hovered over, inset when clicked on and opened the desired modal.
+
+_Steps to test_
+
+1. Navigate to [RPSLS game - Landing Page](https://robynsoar.github.io/rpsls-game/)
+2. Hover cursor over Rules modal button.
+3. Click cursor on Rule modal button.
+
+Expected:
+
+Hover effect removes the button's box shadow while the cursor is over the button, produces an inset style on the button when clicked and opens the Rules modal without errors.
+
+Actual:
+
+Behaviour was as expected.
+
+__Rules Modal Close - Button and clicking off modal__
+
+Testing was performed on the Rules modal close button from within the modal to ensure that clicking the "X" or clicking off of the modal, closed the modal.
+
+_Steps to test_
+
+1. Navigate to [RPSLS game - Landing Page](https://robynsoar.github.io/rpsls-game/)
+2. Click Rules modal button
+3. Navigate to "X" close button in top right of the modal
+4. Reopen Rules modal
+5. Click outside of the modal window
+
+Expected:
+
+Clicking the "X" button closes the modal and clicking outside of the modal window also closes the modal.
+
+Actual:
+
+Behaviour was as expected.
+
+__Result display__
+
+Testing was performed on the Result display to ensure that the result of each round and overall result was displayed correctly through using any of the 5 hand choices.
+
+_Steps to test_
+
+1. Navigate to [RPSLS game - Landing Page](https://robynsoar.github.io/rpsls-game/)
+2. Click "Rock" button
+3. Click "Paper" button
+4. Click "Scissors" button
+5. Click "Lizard" button
+6. Click "Spock" button
+
+Expected:
+
+Result display to show either "You win!" with a green border, "Computer wins!" with a red border or "It's a draw!" with a yellow border, and after 5 round to show overall result messages of either "You won overall! Well done!" with a green border, "Oh no! The computer won!" with a red border or "The game ends in a tie!" with a yellow border.
+
+Actual:
+
+Behaviour was as expected.
+
+__Hand display__
+
+Testing was performed on the Hand display to ensure that the hand chosen by the player and computer were displayed correctly through using any of the 5 hand choices.
+
+_Steps to test_
+
+1. Navigate to [RPSLS game - Landing Page](https://robynsoar.github.io/rpsls-game/)
+2. Click "Rock" button
+3. Click "Paper" button
+4. Click "Scissors" button
+5. Click "Lizard" button
+6. Click "Spock" button
+
+Expected:
+
+Hand display to show "Rock", "Paper", "Scissors", "Lizard" and "Spock" when clicking each respective button.
+
+Actual:
+
+Behaviour was as expected.
+
+__Game round display__
+
+Testing was performed on the game round display to ensure that the number of each round being played was correct and being displayed correctly through using any of the 5 hand choices.
+
+_Steps to test_
+
+1. Navigate to [RPSLS game - Landing Page](https://robynsoar.github.io/rpsls-game/)
+2. Click "Rock" button
+3. Click "Paper" button
+4. Click "Scissors" button
+5. Click "Lizard" button
+6. Click "Spock" button
+
+Expected:
+
+Game round display as default started with "Round: 1 of 5" and incremented each time any of the hand choice buttons were clicked until it reached "Round: 5 of 5".
+
+Actual:
+
+Behaviour was as expected.
+
+__Reset button__
+
+Testing was performed on the reset button to ensure that the results display, hand choices, round results and scoreboard all reset to original default once the reset button was pressed.
+
+_Steps to test_
+
+1. Navigate to [RPSLS game - Landing Page](https://robynsoar.github.io/rpsls-game/)
+2. Click hand choices till game concludes
+3. Click the "Reset button"
+
+Expected:
+
+Reset button will reset all results display, hand choice display, game round and scoreboard.
+
+Actual:
+
+Behaviour was as expected.
+
+__Scoreboard display__
+
+Testing was performed on the scoreboard display to ensure that the point result of each round was displayed correctly through winning, losing or drawing the game.
+
+_Steps to test_
+
+1. Navigate to [RPSLS game - Landing Page](https://robynsoar.github.io/rpsls-game/)
+2. Play rounds multiple times
+
+Expected:
+
+Scoreboard display will raise on the player's side if the user wins, raise on the computer's side if the computer wins, and awards no points if the round or overall game ends in a tie.
+
+Actual:
+
+Behaviour was as expected.
+
 ### Validator Testing
 
 - HTML
