@@ -364,3 +364,52 @@ screens to allow the game page to appear fully on the screen */
     }
 
 }
+
+/* Media Query - Tablets and up (768px and up) */
+@media screen and (min-width: 768px) {
+
+    #myBtn {
+        font-size: large;
+    }
+
+    #result-text {
+        font-size: xxx-large;
+    }
+
+    #hand-choice {
+        font-size: xx-large;
+    }
+
+    #versus {
+        font-size: xxx-large;
+    }
+
+    #game-round {
+        font-size: larger;
+    }
+
+    #scoreboard {
+        font-size: large;
+    }
+
+    #scores {
+        font-size: xxx-large;
+    }
+
+    #reset-btn {
+        font-size: x-large;
+    }
+
+    #choices-area button {
+        width: 180px;
+        height: 180px;
+    }
+
+}
+
+/* Media Query - Large Laptops and up (1440px and up) */
+@media screen and (min-width: 1440px) {
+
+    
+
+}
