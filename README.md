@@ -72,6 +72,27 @@ The Website is made up of 2 pages, the landing page where the game is establishe
 
 ![Modal feature](documentation/features/rules-modal.png)
 
+- Game result
+    - After each round during a game, the game results will change based on if the player wins, the computer wins or if it ends in a tie.
+    - The border surrounding the text changes colour, matching the theme of the Website accent colours as well as typical colour association with the colour green for a win, red for a loss, and yellow for average.
+    - The default colour of the border is the standard black that is used for text site wide, with a message that quickly informs the user of how many rounds are played within one game.
+
+Default colour and message
+
+![Default result feature](documentation/features/game-result-text.png)
+
+Win colour and message
+
+![Win result feature](documentation/features/game-result-text-win.png)
+
+Lose colour and message
+
+![Lose result feature](documentation/features/game-result-text-lose.png)
+
+Draw colour and message
+
+![Draw result feature](documentation/features/game-result-text-draw.png)
+
 ### Existing Features
 
 ### Features Left to Implement
