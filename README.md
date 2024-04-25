@@ -73,7 +73,7 @@ The Website is made up of 2 pages, the landing page where the game is establishe
 ![Modal feature](documentation/features/rules-modal.png)
 
 - Game result
-    - After each round during a game, the game results will change based on if the player wins, the computer wins or if it ends in a tie.
+    - After each round during a game, the game results will change based on if the player (user) wins, the computer wins or if it ends in a tie.
     - The border surrounding the text changes colour, matching the theme of the Website accent colours as well as typical colour association with the colour green for a win, red for a loss, and yellow for average.
     - The default colour of the border is the standard black that is used for text site wide, with a message that quickly informs the user of how many rounds are played within one game.
 
@@ -92,6 +92,19 @@ Lose colour and message
 Draw colour and message
 
 ![Draw result feature](documentation/features/game-result-text-draw.png)
+
+- Choice display
+    - The default text reads "1..2..3... GO! on both the player (user) and computer side of the "VS" before any rounds have been played.
+    - After each round has been played, the hand chosen by the user is displayed along side the hand chosen at random by the computer.
+    - This display provides instant feedback to the user and is more exciting than a simple win or lose notification.
+
+Default choice display
+
+![Default choice display feature](documentation/features/choice-display-text.png)
+
+One option after a hand has been chosen by the user and computer
+
+![Preview choice display feature](documentation/features/choice-display-text-preview.png)
 
 ### Existing Features
 
