@@ -132,7 +132,20 @@ One option after a hand has been chosen by the user and computer
 
 ### Existing Features
 
+- Responsive and intuative design
+- Animates modal with rules on winning plays that can be closed to allow room for the full game to be seen on a screen without scroll.
+- Results, choice and points feedback to the user to engage the user and provide a more positive experience.
+- Responsive sizing across a variety of devices.
+- Ability to play against the computer.
+- A score tracking system
+- A limited number of tries before the game is over.
+- 404 error page with clear navigation back to site.
+
 ### Features Left to Implement
+
+- Add icons along side the name of the hand chosen by both player and user for a quicker recognition of each choice.
+- Add pattern recognition to the computer's hand choices with difficulties based on which Star Trek character you're playing against, with their own quotes displaying after each hand played.
+- Add the ability to play against another human by sharing a link to the same game server.
 
 [Return to Table of Contents](#table-of-contents)
 
