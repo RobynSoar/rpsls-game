@@ -18,7 +18,9 @@ body {
     font-family: "Ubuntu Condensed", sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Teko", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -71,7 +73,7 @@ header {
 /* Modal Header - (Walkthrough code) */
 .modal-header {
     padding: 7px 16px;
-    background-color:#FFC857;
+    background-color: #FFC857;
 }
 
 /* Modal Body - (Walkthrough code) */
@@ -97,8 +99,15 @@ header {
 
 /* Add animation - (Walkthrough code) */
 @keyframes animatetop {
-    from {top: -300px; opacity: 0;}
-    to {top: 0; opacity: 1}
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
 }
 
 /* Modal (close button) - (Walkthrough code) */
@@ -176,7 +185,8 @@ them close
     justify-content: center;
 }
 
-#player-label, #comp-label {
+#player-label,
+#comp-label {
     padding: 5px 10px;
     background-color: #69A197;
     border-radius: 5px;
@@ -249,11 +259,19 @@ them close
     border: none;
 }
 
-#rock:hover, #paper:hover, #scissors:hover, #lizard:hover, #spock:hover {
+#rock:hover,
+#paper:hover,
+#scissors:hover,
+#lizard:hover,
+#spock:hover {
     box-shadow: none;
 }
 
-#rock:active, #paper:active, #scissors:active, #lizard:active, #spock:active {
+#rock:active,
+#paper:active,
+#scissors:active,
+#lizard:active,
+#spock:active {
     box-shadow: inset 0 0 10px #252525;
 }
 
