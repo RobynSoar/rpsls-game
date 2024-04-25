@@ -58,6 +58,20 @@ The Website is made up of 2 pages, the landing page where the game is establishe
 
 ### Landing Page
 
+- Rules modal button
+    - Under the logo heading is a "Rules" button, which opens a modal to inform the user of what played hand choice beats the other in the game of Rock Paper Scissors Lizard Spock.
+    - Provides feedback to the user when hovered over and clicked.
+
+![Modal button feature](documentation/features/rules-modal-button.png)
+
+- Rules modal
+    - Once clicked and opened, the "Rules" modal shows the rules of the game to the user.
+    - The modal window is animated and softly transitions onto the screen.
+    - The modal can be closed by the user either by clicking the "x" in the top right corner, or by clicking outside off the modal.
+    - The modal window takes up a small amount of the full Website and shows itself with a dark semi-opaque background to show the user they're still on the RPSLS Website.
+
+![Modal feature](documentation/features/rules-modal.png)
+
 ### Existing Features
 
 ### Features Left to Implement
