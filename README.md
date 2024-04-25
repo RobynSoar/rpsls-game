@@ -175,6 +175,15 @@ The following colour palette was used throughout the Website to provide good con
 
 ![Colour Palette](documentation/colour-palette.png)
 
+__Colour Contrast__
+
+Colour contrast for the Website was checked with [WebAIM Contrast Checker](https://webaim.org/).
+
+- Chrome DevTools was used to double check the colour contrast of all elements.
+- Chrome Lighthouse report for accessibility approves the colour contrast of all foreground and background elements on the Website.
+
+![Lighthouse colour contrast](documentation/testing/lighthouse-colour-contrast-pass.png)
+
 ### Google Fonts
 
 [Google Fonts](https://fonts.google.com/) was used to import fonts for the Website, these include:
@@ -191,7 +200,13 @@ The following colour palette was used throughout the Website to provide good con
     - The Website was styled using custom CSS in an external file.
 
 - JavaScript
-    - 
+    - Used to listen for user clicks on and outside of the modal.
+    - Used to update results based on the game round result and overall result.
+    - Used to increment the round played and announces overall result at the end of total rounds played.
+    - Used to display the hand choices of player and computer to the user.
+    - Used to increment the score of player and computer.
+    - Used to listen for user clicks on hand choice buttons.
+    - Used to reset the game to it's original state upon activation of the reset button.
 
 - GitHub
     - Source code is hosted on GitHub and deployed using Git Pages.
@@ -216,6 +231,15 @@ The following colour palette was used throughout the Website to provide good con
 
 - [Online PNG Tools](https://onlinepngtools.com/change-png-color)
     - Used to change the colours of the icons to match the site's colour palette.
+
+- Procreate
+    - A digital illustration app was used to illustrate the wireframes.
+
+- [Am I Reponsive](https://ui.dev/amiresponsive)
+    - Used to show the Website's responsivity across a variety of devices.
+
+- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+    - Used to check the colour contrast of the Website for accessibility.
 
 [Return to Table of Contents](#table-of-contents)
 
