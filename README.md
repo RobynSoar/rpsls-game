@@ -482,6 +482,20 @@ Landing Page
 
 ### Unfixed Bugs
 
+No bugs have been left unfixed, below are bugs and the fixes for them.
+
+__Overall Result display__
+
+Bug:
+
+- Trying to show the overall result of the 5 of 5 rounds to the user. The nested ```if``` statements seemed to work (Checked the nested ```if``` statement where if it reads ```(currentRound => totalRounds)``` the result then shows "The game ends in a tie!" upon reloading the site, it is a tie because the scoreboard reads "0 : 0") however if the first ```if``` statement of the function read ```(currentRound === totalRounds)``` at the end of the 5 rounds, then it doesn't show at all.
+
+Fixed: The follow things have been changed:
+
+- ```currentRound++``` has been moved underneath to increment scores after everything else happens.
+- ```if (currentRound > totalRounds)``` has been changed and moved into the playRound function, so that it checks everytime a round is done
+- The syntax in the first ```if``` statement of the ```concludeGame``` function has been altered
+
 [Return to Table of Contents](#table-of-contents)
 
 ## Deployment
