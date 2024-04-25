@@ -111,8 +111,16 @@ One option after a hand has been chosen by the user and computer
     - To the left and right of the scoreboard show the labels for which side the points are displayed for each competitor (player and computer).
     - The scoreboard points display updates after each round and increments each time the player (user) or computer wins.
     - Below is the reset button, this can be clicked at any point during a game or after the game has concluded to reset the whole game back to the start. This resets all displayed messages, results and points.
+    - The reset button provides feedback to the user when hovered over or clicked.
 
 ![Scoreboard and reset button feature](documentation/features/scoreboard-and-reset.png)
+
+- Hand choice buttons
+    - Buttons for each hand choice display to the user in a matching style, clearly showing an easily recognisable hand gesture.
+    - The buttons provide feedback to the user when hovered over or clicked.
+    - Clicking any one of these gestures plays a round instantly.
+
+![Hand choice feature](documentation/features/hand-choice-buttons.png)
 
 ### Existing Features
 
