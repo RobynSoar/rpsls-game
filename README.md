@@ -573,6 +573,10 @@ The project will now of been cloned on your local machine for use.
 
 ### Acknowledgements
 
+A big thank you yet again to my wonderful friends and classmates within the Code Institute Slack community, for always being there with great morale, guidance and great team spirit to get through any difficulty faced with code or emotionally.
+
+Another Thank you to my wonderful mentor [Gareth McGirr](https://github.com/Gareth-McGirr), for being comfortable to talk with, knowledgable and providing priceless guidance throughout the project.
+
 [Return to Table of Contents](#table-of-contents)
 
 ## Author
